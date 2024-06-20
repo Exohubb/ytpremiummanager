@@ -1,0 +1,196 @@
+body{
+    background-color: #5A639C;
+}
+#header{
+    display: inline-flex;
+    position: relative;
+    margin-left: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #E2BBE9;
+    margin-top: 30px;
+}
+#logo{
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+    background-image: url(./assects/output-onlinepngtools.png);
+    background-size: cover;
+    margin-top: 20px;
+    position: absolute;
+}
+.members{
+    border: solid #9B86BD;
+    height: 390px;
+    width: 650px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 240px;
+    margin-top: 140px;
+}
+.memb{
+    border: solid #9B86BD 1px;
+    height: 76px;
+    width: 630px;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    font-size:large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+    display: flex;
+    font-weight: bold;
+    padding-top: 9px;
+}
+.payment{
+    border: solid #9B86BD;
+    height: 50px;
+    width: 630px;
+    margin-left: 240px;
+    margin-top: 86px;
+    position: absolute;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    display:flex;
+    gap: 340px;
+}
+#paymenthbar{
+    border: solid 1px #9B86BD;
+    position: absolute;
+    height: 50px;
+    margin-left: 340px;
+    display: flex;
+
+}
+#membershbar{
+    border: solid 1px #9B86BD;
+    position: absolute;
+    height: 386px;
+    margin-left: 360px;
+    display: flex;
+}
+#paymentstatus{
+    position: absolute;
+    margin-left: 560px;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    background-image: url(./assects/payment-check_5504338.png);
+    background-size: cover;
+    display: flex;
+}
+.STATUSlogo{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -3px;
+    background-image: url(./assects/paymentdone.png);
+    background-size: cover;
+}
+#sidebaar{
+    height: 595px;
+    width: 500px;
+    position: absolute;
+    display: flex;
+    margin-left: 820px;
+    margin-top: 19px;
+}
+#currentprice{
+    height: 95px;
+    width: 100%;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    position: absolute;
+
+}
+#nextdate{
+    height: 445px;
+    width: 100%;
+    border:solid #9B86BD;
+    margin-top: 145px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+
+}
+#pricehbaar{
+    border: solid 1px #9B86BD;
+
+
+}
+#inputbox{
+    background-color: #ffffff;
+    height: 35px;
+    width: 75%;
+    border-radius: 16px;
+    padding-left: 16px;
+    color: rgb(34, 121, 180);
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#paybtn{
+    margin-top: 20px;
+    height: 35px;
+    width: 80px;
+    background-color: #E2BBE9;
+    border-radius: 16px;
+    color:rgb(0, 0, 0);
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    margin-left: 210px;
+
+}
+#paymentissue{
+    color: #E2BBE9;
+    font-weight: normal;
+    text-decoration: none;
+
+
+}
+#paymenis{
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 16px;
+}
+#socialmedia{
+    height: 90px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#socialmedia .x{
+    height: 60px;
+    width: 60px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+.instagram{
+    background-color: #5A639C;
+    background-image: url(./assects/icon/6636566_instagram_social\ media_social\ network_icon.png);
+    background-size: cover;
+}
+.linkdin{
+    background-color: #5A639C;
+    background-image: url(./assects/icon/linkedin_145807.png);
+    background-size: cover;
+}
+.github{
+    background-color: #5A639C;
+    background-image: url(./assects/icon/icons8-github-512.png);
+    background-size: cover;
+}
+.youtubsocial{
+    background-color: #5A639C;
+    background-image: url(./assects/icon/youtube_187209.png);
+    background-size: cover;
+}
